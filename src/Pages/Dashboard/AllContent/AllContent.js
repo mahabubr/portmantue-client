@@ -14,7 +14,7 @@ const AllContent = () => {
     const dispatch = useDispatch()
 
     // useEffect(() => {
-    //     fetch('http://localhost:5000/content')
+    //     fetch('https://portmanteau-server.vercel.app/content')
     //         .then(res => res.json())
     //         .then(data => {
     //             dispatch(addContent(data))

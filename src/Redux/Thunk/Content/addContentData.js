@@ -1,6 +1,6 @@
 const addContentData = (content) => {
     return async (dispatch, getState) => {
-        const response = await fetch('http://localhost:5000/content', {
+        const response = await fetch('https://portmanteau-server.vercel.app/content', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

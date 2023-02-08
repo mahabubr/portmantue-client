@@ -2,7 +2,7 @@ import { updateContent } from "../../Action/contentAction"
 
 const updateContentData = (content) => {
     return async (dispatch, getState) => {
-        const response = await fetch(`http://localhost:5000/content/${content._id}`, {
+        const response = await fetch(`https://portmanteau-server.vercel.app/content/${content._id}`, {
             method: "PUT",
             headers: {
                 'content-type': 'application/json'
